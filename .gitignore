@@ -1,0 +1,25 @@
+# Versions Word et fichiers temporaires
+*.docx
+*.doc
+~$*
+
+# Captures d'écran (déjà dans les rapports)
+*.png
+*.jpg
+*.jpeg
+
+# Fichiers parasites des systèmes
+.DS_Store
+Thumbs.db
+
+# Secrets : ne jamais publier
+passwd
+*.pem
+*.key
+id_rsa
+id_ed25519
+known_hosts
+*.rdp
+
+# Journaux
+*.log
